@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="manage_users.html">Manage Users</a>
+            <a href="manage_placements.html">Manage Placements</a>
+            <a href="reports.html">Generate Reports</a>
+            <a href="notifications.html">Notifications</a>
+            <a href="settings.html">System Settings</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <div class="card">
+                <h2>Manage Users</h2>
+                <p>View, edit, or remove users in the system.</p>
+                <button onclick="window.location.href='manage_users.html'">Go to Users</button>
+            </div>
+            <div class="card">
+                <h2>Manage Placements</h2>
+                <p>Manage job postings, applications, and track placements.</p>
+                <button onclick="window.location.href='manage_placements.html'">Go to Placements</button>
+            </div>
+            <div class="card">
+                <h2>Generate Reports</h2>
+                <p>Generate reports on system activity, placements, and user data.</p>
+                <button onclick="window.location.href='reports.html'">Go to Reports</button>
+            </div>
+            <div class="card">
+                <h2>Notifications</h2>
+                <p>Manage and send system-wide notifications to users.</p>
+                <button onclick="window.location.href='notifications.html'">Go to Notifications</button>
+            </div>
+            <div class="card">
+                <h2>System Settings</h2>
+                <p>Configure system settings and administrative controls.</p>
+                <button onclick="window.location.href='settings.html'">Go to Settings</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Placement Interaction System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

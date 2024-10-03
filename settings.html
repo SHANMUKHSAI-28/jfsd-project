@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>System Settings</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="admin_dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Configuration</h2>
+        <form>
+            <label for="timezone">Timezone</label>
+            <select id="timezone">
+                <option value="utc">UTC</option>
+                <option value="pst">PST</option>
+                <option value="est">EST</option>
+            </select>
+
+            <label for="notifications">Enable Email Notifications</label>
+            <input type="checkbox" id="notifications">
+
+            <button type="submit">Save Settings</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Placement Interaction System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
