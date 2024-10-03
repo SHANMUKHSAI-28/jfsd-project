@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Reports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Generate Reports</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="admin_dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Reports</h2>
+        <form>
+            <label for="report-type">Select Report Type</label>
+            <select id="report-type">
+                <option value="user">User Reports</option>
+                <option value="placement">Placement Reports</option>
+                <option value="system">System Logs</option>
+            </select>
+            <label for="start-date">Start Date</label>
+            <input type="date" id="start-date">
+            <label for="end-date">End Date</label>
+            <input type="date" id="end-date">
+            <button type="submit">Generate Report</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Placement Interaction System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
